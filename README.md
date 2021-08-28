@@ -1,2 +1,2 @@
-# Python-c-b-n
+# Python co ban
 Python cơ bản
