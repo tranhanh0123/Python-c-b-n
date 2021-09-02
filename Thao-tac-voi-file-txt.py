@@ -12,10 +12,14 @@ import io
 
 
 #mở một file. nếu chưa có file sẽ tự tạo
-# def mo_file():
-#     f = open("test.txt","w")
+# def mo_file(tenfile):
+#     f = open(tenfile,"w")
 #     f.close()
-# mo_file()
+# tenfile="vidu.txt"
+# mo_file(tenfile)
+
+
+
 
 
 
