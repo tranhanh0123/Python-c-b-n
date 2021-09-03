@@ -58,19 +58,50 @@ import io
 #     f.write(nd_line + '\n')
 #     f.close()
 # filename = "test.txt"
-# nd_line = " xin chào cả nhà nhé @@"
+# nd_line = "xin chào cả nhà nhé @@"
 # ghi_file(filename,nd_line)
 
 
 
-#đọc file có utf8
+#ghi vào file từ 1 list có sẵn :
+# def ghi_file_tu_list(filename,list):
+#     f = io.open(filename,"w",encoding="utf-8")
+#     f.write("\n".join(list))
+#     f.close()
+# filename = "test.txt"
+# list = ["văn hạnh","Tên gì","học ra sao","văn hạnh"]
+# ghi_file_tu_list(filename,list)
+
+
+
+
+
+#đọc file có utf8 - trả về một danh sách (ko phải list)
 # def doc_file():
 #     f = io.open("test.txt", mode="r", encoding="utf-8")
 #     doc_van_ban = f.readlines()
-    # print(doc_van_ban)
+#     print(doc_van_ban)
 #     for i in doc_van_ban:
 #         print(i)
 # doc_file()
+
+#đọc file có utf8 trả về 1 list
+# def doc_file(tenfile):
+#     f = io.open(tenfile,mode="r", encoding="utf-8")
+#     noi_dung = f.read()
+#     f.close()
+#     return noi_dung.split("\n")
+
+# tenfile = "test.txt"
+# print(doc_file(tenfile))
+
+
+
+
+
+
+
+
 
 
 
